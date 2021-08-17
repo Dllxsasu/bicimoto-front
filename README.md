@@ -29,3 +29,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ##YA CLONE TU REPO LOCO Y AHORA TOMA MI COMMIT
 "NUEVO REPO ACTUALIZADO Y SINCRONIZADO"
 psd: Revisa el COMMIT en github
+Okey revisado loco
