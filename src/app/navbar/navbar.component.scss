@@ -1,5 +1,5 @@
 header{
-    
+
     z-index: 999;
     position: absolute;
     top: 0;
@@ -10,7 +10,7 @@ header{
     align-items: center;
     padding: 15px 100px;
     transition: 0.5s ease;
-    
+
     .logo{
         color:#000;
         font-size: 1.5em;
@@ -23,7 +23,7 @@ header{
     .navigation{
         position: relative;
     }
-    
+
 
     .navigation .navigationItems a {
         position: relative;
@@ -46,13 +46,13 @@ header{
 
     }
     .navigation .navigationItems a:hover:before {
-      
+
         width: 100%;
-       
+
     }
 
-  
-   
+
+
 }
 .menu-btn{
     background: url(../../assets/icons/menu.png) no-repeat ;
@@ -74,4 +74,7 @@ header{
         display: none;
 
     }
+}
+.carousel__navigation-item{
+    background: url(../../assets/icons/menu.png) no-repeat;
 }

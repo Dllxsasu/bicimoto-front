@@ -9,14 +9,16 @@ import { NavbarComponent } from './navbar/navbar.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
-import { NavPanelComponent } from './nav-panel/nav-panel.component';
+import { NavpanelComponent } from './navpanel/navpanel.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     NavbarComponent,
-    NavPanelComponent
+    NavpanelComponent,
+  
   ],
   imports: [
     BrowserModule,
