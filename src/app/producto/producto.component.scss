@@ -1,0 +1,18 @@
+.card-container {
+    display: flex;
+    flex-flow: row wrap;
+    margin:auto;
+} 
+  
+  .card-content {
+    width: 250px;
+    box-sizing: border-box;
+    margin: 16px;
+    cursor: pointer;
+  }
+
+  .cajita{
+      margin-top: 16px;
+  }
+
+ 
