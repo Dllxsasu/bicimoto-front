@@ -32,10 +32,20 @@ export class ProductoComponent implements OnInit {
       precioVenta:8.00, marca:"Generico"}; 
       var p5:Product={id:"asd", titulo:"Motocicleta asdasd dd  Banjo Borrado Freno Interruptor M10 x 1.25mm", precio:1, img:"https://i.linio.com/p/3321c8aa8acb38e45bf87d9651733d3c-catalog.webp",
       precioVenta:8.00, marca:"Generico"}; 
+      var p6:Product={id:"asd", titulo:"Motocicleta asdasd dd  Banjo Borrado Freno Interruptor M10 x 1.25mm", precio:1, img:"https://i.linio.com/p/3321c8aa8acb38e45bf87d9651733d3c-catalog.webp",
+      precioVenta:8.00, marca:"Generico"}; 
+      var p7:Product={id:"asd", titulo:"Motocicleta asdasd dd  Banjo Borrado Freno Interruptor M10 x 1.25mm", precio:1, img:"https://i.linio.com/p/3321c8aa8acb38e45bf87d9651733d3c-catalog.webp",
+      precioVenta:8.00, marca:"Generico"}; 
+      var p8:Product={id:"asd", titulo:"Motocicleta asdasd dd  Banjo Borrado Freno Interruptor M10 x 1.25mm", precio:1, img:"https://i.linio.com/p/3321c8aa8acb38e45bf87d9651733d3c-catalog.webp",
+      precioVenta:8.00, marca:"Generico"}; 
       this.products.push(p1);
       this.products.push(p2);
       this.products.push(p3);
       this.products.push(p4);
+      this.products.push(p5);
+      this.products.push(p6);
+      this.products.push(p7);
+      this.products.push(p8);
       console.log(this.products);
     }
 }

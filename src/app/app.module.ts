@@ -13,7 +13,20 @@ import { NavpanelComponent } from './navpanel/navpanel.component';
 import {MatCardModule} from '@angular/material/card';
 import { ProductoComponent } from './producto/producto.component';
 
+import { NavPanelComponent } from './componentes/main/nav-panel/nav-panel.component';
 
+import {NgbModule}  from '@ng-bootstrap/ng-bootstrap';
+import { NavPanelonComponent } from './nav-panelon/nav-panelon.component';
+import { ProductsmainComponent } from './productsmain/productsmain.component';
+import {CarouselModule} from 'primeng/carousel';
+import { ButtonModule } from 'primeng/button';
+import {ToastModule} from 'primeng/toast';
+import { ProductService } from './componentes/main/nav-panel/productService';
+import { ProducteServicexService } from './shared/service/producte-servicex.service';
+import { HttpClientModule } from '@angular/common/http';
+import {AccordionModule} from 'primeng/accordion';
+import { TituloCentradoMainComponent } from './titulo-centrado-main/titulo-centrado-main.component';     //accordion and accordion tab
+                   //api
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,6 +34,10 @@ import { ProductoComponent } from './producto/producto.component';
     NavbarComponent,
     NavpanelComponent,
     ProductoComponent,
+    NavPanelComponent,
+    NavPanelonComponent,
+    ProductsmainComponent,
+    TituloCentradoMainComponent,
   
   ],
   imports: [
@@ -30,9 +47,16 @@ import { ProductoComponent } from './producto/producto.component';
     MatToolbarModule,
     MatIconModule,
     MatButtonModule,
-    MatCardModule
+    MatCardModule,
+    NgbModule,
+    CarouselModule,
+    ButtonModule,
+    ToastModule,
+    HttpClientModule,
+    AccordionModule
+  
   ],
-  providers: [],
+  providers: [ProductService,ProducteServicexService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
