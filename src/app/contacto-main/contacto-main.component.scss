@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.direccion {
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contacto-in {
+    padding: 40px 30px;
+}
+
+.contacto-in:nth-child(1) {
+    flex: 35%;
+}
+
+.contacto-in:nth-child(2) {
+    flex: 65%;
+    padding: 0;
+}
+
+.contacto-in h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.contacto-in h2 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.direccion {
+    width: 90%;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+}
+
+.map {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media(max-width:400px) {
+    .contacto-in h1 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+    .contacto-in h2 {
+        font-size: 1.2rem;
+        font-weight: 400;
+        margin-bottom: 15px;
+    }
+}

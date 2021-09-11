@@ -25,7 +25,11 @@ import { ProductService } from './componentes/main/nav-panel/productService';
 import { ProducteServicexService } from './shared/service/producte-servicex.service';
 import { HttpClientModule } from '@angular/common/http';
 import {AccordionModule} from 'primeng/accordion';
-import { TituloCentradoMainComponent } from './titulo-centrado-main/titulo-centrado-main.component';     //accordion and accordion tab
+import { TituloCentradoMainComponent } from './titulo-centrado-main/titulo-centrado-main.component';
+import { MarcasComponent } from './marcas/marcas.component';
+import { ComentariosMainComponent } from './comentarios-main/comentarios-main.component';
+import { ContactoMainComponent } from './contacto-main/contacto-main.component';
+import { FooterMainComponent } from './footer-main/footer-main.component';     //accordion and accordion tab
                    //api
 @NgModule({
   declarations: [
@@ -38,6 +42,10 @@ import { TituloCentradoMainComponent } from './titulo-centrado-main/titulo-centr
     NavPanelonComponent,
     ProductsmainComponent,
     TituloCentradoMainComponent,
+    MarcasComponent,
+    ComentariosMainComponent,
+    ContactoMainComponent,
+    FooterMainComponent,
   
   ],
   imports: [
