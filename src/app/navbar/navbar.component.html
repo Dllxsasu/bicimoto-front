@@ -1,25 +1,4 @@
-<!--<div class="navBar">
-    <header>
-        <a href="#" class="logo">Summer</a>
-        <div class="menu-btn">
 
-        </div>
-        <div class="navigation">
-            <div class="navigationItems">
-                <a href="#">Home</a>
-                <a href="#">Productos</a>
-                <a href="#">Tiendas</a>
-                <a href="#">Quienes somos</a>
-            </div>
-        </div>
-    </header>
-
-
-
-
-
-</div>
--->
 <nav class="nav">
     <script src="../../assets/js/sidebar.js"></script>
     <div class="navigation container">
@@ -38,16 +17,16 @@
             </div>
             <ul class="nav-list">
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Inicio</a>
+                    <a [routerLink]="['']" class="nav-link">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a href="product.html" class="nav-link">Productos</a>
+                    <a href="" class="nav-link">Productos</a>
                 </li>
                 <li class="nav-item">
-                    <a href="about.html" class="nav-link">Ubicanos</a>
+                    <a href="" class="nav-link">Ubicanos</a>
                 </li>
                 <li class="nav-item">
-                    <a href="contact.html" class="nav-link">Nosotros</a>
+                    <a [routerLink]="['./nosotros']"  class="nav-link">Nosotros</a>
                 </li>
                 <li class="nav-item">
                     <a href="#" class="nav-link">account</a>

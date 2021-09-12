@@ -50,7 +50,7 @@ import { BodynosotrosComponent } from './bodynosotros/bodynosotros.component';  
     FooterMainComponent,
     NosotrosComponent,
     BodynosotrosComponent,
-  
+
   ],
   imports: [
     BrowserModule,
@@ -66,7 +66,7 @@ import { BodynosotrosComponent } from './bodynosotros/bodynosotros.component';  
     ToastModule,
     HttpClientModule,
     AccordionModule
-  
+
   ],
   providers: [ProductService,ProducteServicexService],
   bootstrap: [AppComponent]
