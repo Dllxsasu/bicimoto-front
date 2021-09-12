@@ -29,7 +29,9 @@ import { TituloCentradoMainComponent } from './titulo-centrado-main/titulo-centr
 import { MarcasComponent } from './marcas/marcas.component';
 import { ComentariosMainComponent } from './comentarios-main/comentarios-main.component';
 import { ContactoMainComponent } from './contacto-main/contacto-main.component';
-import { FooterMainComponent } from './footer-main/footer-main.component';     //accordion and accordion tab
+import { FooterMainComponent } from './footer-main/footer-main.component';
+import { NosotrosComponent } from './nosotros/nosotros.component';
+import { BodynosotrosComponent } from './bodynosotros/bodynosotros.component';     //accordion and accordion tab
                    //api
 @NgModule({
   declarations: [
@@ -46,6 +48,8 @@ import { FooterMainComponent } from './footer-main/footer-main.component';     /
     ComentariosMainComponent,
     ContactoMainComponent,
     FooterMainComponent,
+    NosotrosComponent,
+    BodynosotrosComponent,
   
   ],
   imports: [
