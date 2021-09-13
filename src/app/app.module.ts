@@ -31,7 +31,9 @@ import { ComentariosMainComponent } from './comentarios-main/comentarios-main.co
 import { ContactoMainComponent } from './contacto-main/contacto-main.component';
 import { FooterMainComponent } from './footer-main/footer-main.component';
 import { NosotrosComponent } from './nosotros/nosotros.component';
-import { BodynosotrosComponent } from './bodynosotros/bodynosotros.component';     //accordion and accordion tab
+import { BodynosotrosComponent } from './bodynosotros/bodynosotros.component';
+import { UbicanosComponent } from './ubicanos/ubicanos.component';
+import { BodyubicanosComponent } from './bodyubicanos/bodyubicanos.component';     //accordion and accordion tab
                    //api
 @NgModule({
   declarations: [
@@ -50,6 +52,8 @@ import { BodynosotrosComponent } from './bodynosotros/bodynosotros.component';  
     FooterMainComponent,
     NosotrosComponent,
     BodynosotrosComponent,
+    UbicanosComponent,
+    BodyubicanosComponent,
 
   ],
   imports: [

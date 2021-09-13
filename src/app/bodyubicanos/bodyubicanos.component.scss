@@ -16,6 +16,7 @@ body {
     margin: auto;
     display: flex;
     flex-wrap: wrap;
+
 }
 
 .contacto-in {
@@ -30,7 +31,6 @@ body {
     flex: 65%;
     padding: 0;
 }
-
 
 .contacto-in h1 {
     font-size: 2rem;
@@ -51,6 +51,7 @@ body {
     box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     background: rgb(255, 255, 255);
+
 }
 
 .contacto-in img {
@@ -62,13 +63,16 @@ body {
     border-end-end-radius: 10px;
   border-start-end-radius:10px;
 }
-.imgone{
-  width: 40%;
-  margin-left: 37rem;
+.t1{
+
+    width: 57%;
+margin-left: 30rem;
+margin-top: -27.74rem
 }
-.imgdos{
-  width: 54%;
-  margin-left: 32rem;
+.t2{
+  width: 57%;
+  margin-left: 30rem;
+  margin-top: -27.74rem
 }
 
 @media(max-width:400px) {
@@ -115,4 +119,7 @@ footer{
 }
 .final h1{
     font-weight: 500;
+}
+.ubi{
+  margin-top: 5.8rem;
 }

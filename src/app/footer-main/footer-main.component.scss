@@ -1,12 +1,15 @@
 .footer {
+  width: 100%;
     margin: 70px 0;
     box-sizing: border-box;
+    position: absolute;
 }
 
 .container {
-    max-width: 1170px;
+    max-width: 100%;
     background-color: rgb(255, 255, 255);
     margin: auto;
+  position: flex-wrap;
 }
 
 .row {
@@ -23,15 +26,21 @@ ul {
 }
 
 .footer-col:nth-child(1) {
-    flex: 30%;
+    flex: 40%;
+    margin-top: -3rem;
+    margin-left: 4rem;
 }
 
 .footer-col:nth-child(2) {
-    flex: 30%;
+    flex: 50%;
+      margin-top: -10rem;
+        margin-left: 50.5rem;
 }
 
 .footer-col:nth-child(3) {
     flex: 30%;
+      margin-top: -9rem;
+      margin-left: 100rem;
 }
 
 .footer-col h4 {
@@ -51,7 +60,7 @@ ul {
     background-color: #e91e;
     height: 2px;
     box-sizing: border-box;
-    width: 50px;
+    width: 70px;
 }
 
 .footer-col ul li:not(:last-child) {
@@ -100,11 +109,15 @@ ul {
 }
 
 .payOptions {
-    height: 100px;
-    width: 100px;
+    height: 65px;
+    width: 70px;
+    margin-top: -2rem;
 }
 
 .sasu {
     text-align: center;
     color: seagreen;
+}
+.img1{
+  margin-top: -1rem;
 }
