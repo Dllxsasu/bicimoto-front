@@ -3,10 +3,11 @@ import { RouterModule, Routes } from '@angular/router';
 import {HomeComponent} from './home/home.component';
 import { NosotrosComponent } from './nosotros/nosotros.component';
 import { UbicanosComponent } from './ubicanos/ubicanos.component';
+import { PagproductosComponent } from './pagproductos/pagproductos.component';
 const routes: Routes = [
 
 {
-  path:'',
+  path:'inicio',
   component: HomeComponent,
   pathMatch: 'full'
 },
@@ -19,6 +20,11 @@ const routes: Routes = [
 {
   path:'ubicanos',
   component: UbicanosComponent,
+
+},
+{
+  path:'productos',
+  component: PagproductosComponent,
 
 },
 {
