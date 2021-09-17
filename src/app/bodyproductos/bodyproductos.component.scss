@@ -12,15 +12,7 @@ html {
     font-size: 62.5%;
 }
 
-body {
-    font-family: "Poppins", serif;
-    font-size: 1.6rem;
-    font-weight: 400;
-    background-color: #fff;
-    color: #243a6f;
-    position: relative;
-    z-index: 1;
-}
+
 
 h1,
 h2,
@@ -42,24 +34,8 @@ li {
     list-style-type: none;
 }
 
-.container {
-    max-width: 120rem;
-    margin: 0 auto;
-}
 
-.container-md {
-    max-width: 120rem;
-    margin: 0 auto;
-}
 
-@media only screen and (max-width: 120px) {
-    .container {
-        padding: 0 3rem;
-    }
-    .container-md {
-        padding: 0 3rem;
-    }
-}
 
 
 
@@ -67,15 +43,8 @@ li {
     padding: 1.6rem 0;
 }
 
-.navigation {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
 
-.logo h1 {
-    font-size: 2.5rem;
-}
+
 
 .top-nav {
     display: none;
@@ -129,11 +98,12 @@ li {
 }
 .PROS{
   width: 50%;
-  margin-left: 30rem;
+  margin-left: 35rem;
   height: 90px;
   margin-top: 1rem;
   border-radius: 4px;
   box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+  background-color: white;
 }
 .izquierda .iz-item a {
     position: relative;
@@ -146,15 +116,48 @@ li {
 }
 .izquierda{
   margin-top: 5rem;
-margin-top: 10rem;
+margin-top: -25.35rem;
 margin-left: 10rem;
 border-radius: 4px;
   box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
     width: 16%;
-  
+background-color: white;
 }
 .izquierda .iz-item  {
     margin-left: 20px;
     margin-top: 6rem;
     padding-top: 20px;
+}
+.Productos{
+  width: 61%;
+margin-left: 35rem;
+height: 220px;
+margin-top: 2rem;
+border-radius: 4px;
+box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+background-color: white;
+}
+.div3{
+  width: 61%;
+margin-left: 35rem;
+height: 59px;
+margin-top: 5rem;
+border-radius: 4px;
+box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+background-color: white;
+}
+.div-abajo{
+  margin-left: 35rem;
+  height: 59px;
+  width: 61%;
+  border-radius: 4px;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+  margin-top: -4.5rem;
+
+}
+.Productos img{
+  width: 18%;
+margin-left: 3rem;
+margin-top: 1rem;
+transition: transform 0.5s ease-out,-webkit-transform 0.5s ease-out;
 }
