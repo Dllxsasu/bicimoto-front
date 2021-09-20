@@ -5,7 +5,11 @@ import { NosotrosComponent } from './nosotros/nosotros.component';
 import { UbicanosComponent } from './ubicanos/ubicanos.component';
 import { PagproductosComponent } from './pagproductos/pagproductos.component';
 const routes: Routes = [
-
+  {
+    path:'',
+    component: HomeComponent,
+    pathMatch: 'full'
+  },
 {
   path:'inicio',
   component: HomeComponent,

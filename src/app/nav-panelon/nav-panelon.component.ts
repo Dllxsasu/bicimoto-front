@@ -11,7 +11,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 })
 export class NavPanelonComponent implements OnInit {
   images = [944, 1011, 984].map((n) => `https://picsum.photos/id/${n}/900/500`);
-
+  titulo:string = "OFERTAS";
   constructor() { }
 
   ngOnInit(): void {

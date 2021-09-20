@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./marcas.component.scss']
 })
 export class MarcasComponent implements OnInit {
-
+  titulo:string="MARCAS AFILIADAS";
   constructor() { }
 
   ngOnInit(): void {

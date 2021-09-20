@@ -16,7 +16,7 @@ export class NavPanelComponent implements OnInit {
 
   products!: Productex[];
   responsiveOptions!: any ;
-
+  titulo:string = "PRODUCTOS POPULARES";
   carro!: Productex;
   mobile:boolean=false;
   constructor(private carouselservice: ProducteServicexService) {

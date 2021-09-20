@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./comentarios-main.component.scss']
 })
 export class ComentariosMainComponent implements OnInit {
-
+  titulo:string = "COMENTARIOS";
   constructor() { }
 
   ngOnInit(): void {

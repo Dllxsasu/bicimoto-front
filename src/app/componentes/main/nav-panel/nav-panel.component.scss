@@ -58,3 +58,16 @@ ngb-carousel {
 .caja {
     display: flex;
 }
+
+.products-box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.product-box {
+    flex: 1 0 25%;
+    /* explanation below */
+}
