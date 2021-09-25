@@ -1,3 +1,4 @@
+
 <div class="PROS">
   <ul class="nav-list">
 
@@ -38,42 +39,52 @@
     </li>
   </ul>
 </div>
-<div class="Productos">
+
+
+
+
+<div *ngFor="let producto of productos" class="Productos">
   <ul class="derecha">
 
     <li class="de-item">
-      <img src="../../assets/icons/p1.jpg" alt="">
+      <img src="{{producto.imagen}}" alt="">
     </li>
-
-
-
   </ul>
-   <div class="DescripProductos">
-     <h3>MARCA</h3>
-     <h4>MODELO</h4>
-     <ul>
+  <div class="DescripProductos">
+    <h3>{{producto.marca}}</h3>
+    <h4>{{producto.modelo}}</h4>
+    <ul>
+      <li>
+        <p>{{producto.ficha}}</p>
+      </li>
+    </ul>
 
-        <li><p>Ficha tecnica 1</p></li>
-          <li><p>Ficha tecnica 2</p></li>
-            <li><p>Ficha Tecnica 3</p></li>
-              <li><p>Ficha Tecnica 4</p></li>
-     </ul>
+  </div>
+  <div class="Precio-Botones">
+    <ul>
+      <li class="preciounico">
+        <p>{{producto.precio}}</p>
+      </li>
+      <li>
 
-   </div>
-   <div class="Precio-Botones">
-     <ul>
-       <li class="preciounico"><p>S/ 15.00</p></li>
-       <li>
+        <p><img src="../../assets/icons/check.ico" alt="">Retiro en tienda</p>
+      </li>
+      <li>
+        <p><img src="../../assets/icons/check.ico" alt="" Despacho a Domicilio>Despacho a Domicilio</p>
+      </li>
+      <button mat-raised-button color="primary">Comprar</button>
 
-         <p><img  src="../../assets/icons/check.ico" alt="">Retiro en tienda</p>
-       </li>
-        <li><p><img  src="../../assets/icons/check.ico" alt=""Despacho a Domicilio>Despacho a Domicilio</p></li>
-        <button mat-raised-button color="primary">Comprar</button>
-
-        <button  mat-raised-button color="primary">Agregar</button>
-     </ul>
-   </div>
+      <button mat-raised-button color="primary">Agregar</button>
+    </ul>
+  </div>
 </div>
+
+
+
+
+
+
+
 
 <div class="div1">
   <ul class="izquierda">
